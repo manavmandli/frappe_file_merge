@@ -1,33 +1,30 @@
-### Frappe File Merge
+# Frappe File Merge
 
-Frappe File Merge
+Extends Frappe's file attachment dialog with a **Merge** option — select multiple PDFs and images, reorder them, crop images, and attach the result as a single merged PDF.
 
-### Installation
+---
 
-You can install this app using the [bench](https://github.com/frappe/bench) CLI:
+<!-- Video demo — coming soon -->
+
+---
+
+## Features
+
+- **Merge** button injected into every Frappe upload dialog
+- Supports PDF and images (JPG, PNG, TIFF, WebP, etc.)
+- Drag-to-reorder files before merging
+- Crop images inline before merging
+- Thumbnail previews for images
+- Configurable output filename
+
+## Installation
 
 ```bash
-cd $PATH_TO_YOUR_BENCH
-bench get-app $URL_OF_THIS_REPO --branch develop
-bench install-app frappe_file_merge
+bench get-app frappe_file_merge
+bench --site <site> install-app frappe_file_merge
+bench build --app frappe_file_merge
 ```
 
-### Contributing
+## License
 
-This app uses `pre-commit` for code formatting and linting. Please [install pre-commit](https://pre-commit.com/#installation) and enable it for this repository:
-
-```bash
-cd apps/frappe_file_merge
-pre-commit install
-```
-
-Pre-commit is configured to use the following tools for checking and formatting your code:
-
-- ruff
-- eslint
-- prettier
-- pyupgrade
-
-### License
-
-mit
+MIT

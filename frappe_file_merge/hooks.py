@@ -24,9 +24,7 @@ app_license = "mit"
 # Includes in <head>
 # ------------------
 
-# include js, css files in header of desk.html
-# app_include_css = "/assets/frappe_file_merge/css/frappe_file_merge.css"
-# app_include_js = "/assets/frappe_file_merge/js/frappe_file_merge.js"
+app_include_js = "file_merge.bundle.js"
 
 # include js, css files in header of web template
 # web_include_css = "/assets/frappe_file_merge/css/frappe_file_merge.css"
