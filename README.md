@@ -4,7 +4,7 @@ Extends Frappe's file attachment dialog with a **Merge** option — select multi
 
 ---
 
-<!-- Video demo — coming soon -->
+<video controls src="file_merge.webm" title="Title"></video>
 
 ---
 
